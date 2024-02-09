@@ -1,0 +1,85 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'outfit';
+    /* background: linear-gradient(#6da4aa,#647d87); */
+    background-image: url("/image/contact\ us.jpg");
+    background-size: cover;
+}
+ .class-1 {
+height: 100vh;
+
+display:flex;
+align-items: center;
+justify-content: space-evenly;
+}
+ .class-2 {
+display:flex;
+flex-direction: column;
+align-items: start;
+gap: 20px;
+
+}
+.class-3 h2 {
+
+    font-weight: 600;
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+.class-3 hr {
+    border: none;
+    width: 120px;
+    height: 5px;
+    background: linear-gradient(270deg,#ff994f,#fa6d86);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+ .class-4 {
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: #666;
+border-radius: 50px;
+}
+ .class-2 textarea {
+ height: 140px;
+padding-top: 15px;
+border-radius: 20px;
+}
+ .class-4:focus{
+    border: 2px solid #ff994f;
+}
+.class-4::placeholder{
+    color: #a9a9a9;
+}
+.class-2 button{
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #fff;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(270deg,#ff994f,#fa6d86);
+    cursor: pointer;
+    
+}
+  button:hover{
+    background-color: white;
+    font-size: 20px;
+
+}
+@media (max-width:800px){
+.class-4{
+    width: 80vw;
+}
+}
