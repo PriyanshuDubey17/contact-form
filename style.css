@@ -6,9 +6,9 @@
 }
 body{
     font-family: 'outfit';
-     background: linear-gradient(#6da4aa,#647d87); 
-/*     background-image: url("/image/contact us.jpg"); */
-/*     background-size: cover; */
+     /* background: linear-gradient(#6da4aa,#647d87);  */
+     background-image: url("/image/contact-us.jpg"); 
+     background-size: cover; 
 }
  .class-1 {
 height: 100vh;
